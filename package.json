@@ -1,0 +1,12 @@
+{
+  "name": "saddamburger",
+  "version": "1.0.0",
+  "description": "Saddamburger eCommerce website for Cloudflare Pages",
+  "scripts": {
+    "deploy": "wrangler pages deploy ./public --project-name=saddamburger",
+    "dev": "wrangler pages dev ./public"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
